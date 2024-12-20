@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import MyForm from "./Challanges/stateObjectChallenge";
+import ArrayAsState from "./Lessons/arrayAsState";
 
 function App() {
   return (
     <div className="App">
-      <MyForm />
+      <ArrayAsState />
     </div>
   );
 }
