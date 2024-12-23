@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(25, 25, 31);
+}
+
+.loanApp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  background-color: rgba(11, 218, 218, 0.829);
+  width: 60%;
+  height: 100%;
+  padding: 1%;
+  margin: 10% auto;
+  border-radius: 10px;
+}
+.formItem {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px auto;
+}
+.formItem input,
+.formItem select {
+  border: none;
+  outline: none;
+  height: 30px;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid #fff;
+  padding: 20px !important;
+}
+button {
+  color: #fff;
+  outline: none;
+  border: 1px solid #fff;
+  padding: 1%;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.button {
+  background-color: palevioletred;
+}
+.disable {
+  background-color: gray;
+}
+.modal {
+  background-color: rgba(0, 0, 0, 0.774);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalContent {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}

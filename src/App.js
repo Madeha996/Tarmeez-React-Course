@@ -1,11 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
-import ArrayAsState from "./Lessons/arrayAsState";
+import LoanApp from "./Challanges/LoanApplication/LoanApp";
 
 function App() {
   return (
     <div className="App">
-      <ArrayAsState />
+      <LoanApp />
     </div>
   );
 }
